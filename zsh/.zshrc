@@ -107,6 +107,9 @@ case "$(arch)" in
         # SETUP GOLANG
         [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 
+        # Add Work specific setup - MAY INCLUDE SECRETS
+        export PATH="~/.workrc:$PATH"
+
     ;;
   *)
     echo "Unknown architecture: $(arch)"

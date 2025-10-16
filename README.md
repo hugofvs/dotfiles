@@ -2,6 +2,8 @@
 
 This guide describes how to install all dependencies and use GNU Stow to manage configuration files across Ubuntu and macOS.
 
+Note: .zsdrc expects a $HOME/.workrc for work related config
+
 ---
 
 ## Ubuntu
