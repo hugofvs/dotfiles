@@ -47,9 +47,6 @@ case "$(arch)" in
         export PATH="/opt/homebrew/bin:$PATH"
         export PATH="$HOME/.local/bin:$PATH"
 
-        # Setup fnm
-        eval "$(fnm env --use-on-cd --shell zsh)"
-
         eval "$(zoxide init zsh)"
 
         eval "$(starship init zsh)"
